@@ -1,0 +1,111 @@
+body {
+    background-image: linear-gradient(to left, rgb(252, 237, 240) 10%, rgb(240, 240, 253) 20%);
+   font-family: Arial, sans-serif;
+   margin: 0;
+   padding: 0%;
+}
+.profile-image-wrapper {
+   position: relative; top: 10px;
+}
+.content-wrapper{
+   background-color: #ffffff;
+   text-align: left;
+   border: 1px solid #ccc;
+   border-radius: 1px;
+   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+   margin: 100px auto;
+   max-width: 450px;
+   padding: 32px -10px;
+   text-indent: 6.5%;
+}
+.sio {
+   background-color: #ffffff;
+   border: 2px solid #ccc;
+   margin: 100px auto;
+   max-width: 430px;
+   padding: 8px 12px;
+   text-indent: 9%;
+   height: 30px;
+   position: relative; bottom: 75px;
+
+}
+.si {
+   text-indent: 10%;
+   font-size: 150%;
+   color: rgb(51, 51, 51);
+   position: relative; bottom: 0px;
+}
+
+.container {
+   background-color: #ffffff;
+   text-align: left;
+   text-indent: 10%;
+   font-size: 22px;
+   margin-bottom: 10%;
+   position: relative; bottom: 10px ;
+}
+
+input[type=password]:focus {
+   outline: 3px solid transparent;
+
+}
+.rtb{
+   border: 1px solid #ffffff;
+   text-decoration: none;
+   box-sizing: 30px;
+   display: block;
+   margin-bottom: 20px;
+   padding: 10px;
+   width: 85%;
+   font-size: 70%;
+   margin-left: 8%;
+}
+
+hr {
+   width: 370px;
+   position: relative; left: 1.52%;
+   position: relative; bottom: 25px;
+}
+.NA a{
+   font-size: 60%;
+   color: #1a5bdd;
+   text-decoration: none;
+}
+.NA a:hover {
+   color: #444343;
+   text-decoration: underline;
+}
+.ca a{
+   font-size: 60%;
+   color: #1a5bdd;
+   text-decoration: none;
+   margin-left: .2%;
+}
+.ca a:hover {
+   color: #444343;
+   text-decoration: underline;
+}
+.next{
+   background-color: #0067B8;
+   color: rgb(228, 228, 238);
+   text-decoration: none;
+   text-align: 50%;
+   margin-left: 70%;
+   font-size: 70%;
+   padding: 8px 36px;
+   position: relative; top: 15px;
+}
+.next:hover{
+   background-color: #025ba0;
+}
+.key {
+   position: relative; top: 2px;
+   text-align: center;
+}
+
+.sio a{
+   text-decoration: none;
+   color: rgb(46, 41, 41); left: 18px;
+   text-align: center;
+   position: relative; bottom: 5px;
+}
