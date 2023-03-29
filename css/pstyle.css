@@ -85,7 +85,7 @@ hr {
    color: #444343;
    text-decoration: underline;
 }
-.next{
+.submit{
    background-color: #0067B8;
    color: rgb(228, 228, 238);
    text-decoration: none;
@@ -95,7 +95,7 @@ hr {
    padding: 8px 36px;
    position: relative; top: 15px;
 }
-.next:hover{
+.submit:hover{
    background-color: #025ba0;
 }
 .key {
